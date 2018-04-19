@@ -8,8 +8,8 @@
 }
 .navbar li
 {
-  width:50px;
-  height:20px;
+  width:100px;
+  height:40px;
   background-color: #A0A0A0;
 display:block;
 float:left;
@@ -17,4 +17,32 @@ float:left;
 .navbar li:hover
 {
   background-color: #FF0000;
+}
+.centered{
+  text-align: center;
+}
+
+#donatedescription{
+  width:500px;
+}
+
+.marginscenter{
+  margin-left: auto;
+  margin-right: auto;
+}
+#donation-box{
+  width: 48%;
+  float:left;
+  height: 300px;
+}
+#donation-box div{
+  height: 150px;
+}
+.borders{
+  border: 2px solid black;
+}
+.standard-image{
+  width: 48%;
+  float: left;
+  height: 308px;
 }
