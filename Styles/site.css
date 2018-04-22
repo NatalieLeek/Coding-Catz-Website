@@ -12,7 +12,7 @@
   height:40px;
   background-color: #A0A0A0;
 display:block;
-float:left;
+float: left;
 }
 .navbar li:hover
 {
@@ -23,7 +23,7 @@ float:left;
 }
 
 #donatedescription{
-  width:500px;
+  width:750px;
 }
 
 .marginscenter{
