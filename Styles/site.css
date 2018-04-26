@@ -22,6 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #9FEDFF;
+    margin-bottom: 10px;
 }
 
 #buttonsnavbar{
@@ -43,24 +44,25 @@ li {
 
 li a {
     display: inline-block;
-    color: #9F7AFF;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #9F7AFF;
 }
 
 .active {
     background-color: #19FF8C;
 }
 
-
 .centered{
   text-align: center;
 }
+
 
 #donatedescription{
   width:750px;
@@ -153,7 +155,7 @@ li a:hover {
   color: white;
 }
 #map{
-width:500px;
+width:700px;
 height:500px;
 margin: 10px auto;
 border: 2px solid black
