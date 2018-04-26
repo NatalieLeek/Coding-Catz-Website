@@ -12,7 +12,7 @@
   height:40px;
   background-color: #A0A0A0;
 display:block;
-float: left;
+float:left;
 }
 .navbar li:hover
 {
@@ -38,6 +38,28 @@ float: left;
 #donation-box div{
   height: 150px;
 }
+.cat-profile{
+  display: none;
+  float:left;
+  width: 700px;
+}
+.cat-profile.active{
+  display: block;
+}
+.cat-profile img{
+  width: 300px;
+  height: 300px;
+  float:left;
+}
+.cat-profile div
+{
+  float:left;
+}
+#contact-form{
+  width:800px
+
+}
+
 .borders{
   border: 2px solid black;
 }
@@ -45,4 +67,54 @@ float: left;
   width: 48%;
   float: left;
   height: 308px;
+}
+
+.borders li :hover{
+  float:left;
+}
+
+.about-image{
+  width: 25%;
+  float: right;
+  height:190px;
+}
+#aboutus{
+  border: 2px solid black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+#map{
+width:500px;
+height:500px;
+margin: 10px auto;
+border: 2px solid black
 }
