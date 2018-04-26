@@ -79,11 +79,10 @@ li a:hover {
 }
 
 #aboutus {
-   color: #9F7AFF;
+   color: #6A1B9A;
    margin-right: 50px;
    padding: 50px;
    border-width: 2px ;
-   border-color: #6A1B9A;
 }
 
 
@@ -93,8 +92,25 @@ li a:hover {
 }
 
 
+p{ 
+  font-size: 200%;
+  width: 100%;
+  color: #6A1B9A;
+  text-align: centre;
+}
 
 
+#frequency { 
+  color: #6A1B9A;
+  font-size: 200%;
+  padding: 20px;
+}
+
+#money-amount {
+  color: #6A1B9A;
+  font-size: 200%;
+  padding: 20px;
+}
 
 #donation-box{
   width: 48%;
@@ -122,17 +138,12 @@ li a:hover {
   float:left;
 }
 #contact-form{
-  width:800px
+  width:1000px
 
 }
 
 .borders{
   border: 2px solid black;
-}
-.standard-image{
-  width: 48%;
-  float: left;
-  height: 308px;
 }
 
 
