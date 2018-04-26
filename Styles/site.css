@@ -40,7 +40,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: ##9FEDFF;
+    background-color: #9FEDFF;
 }
 
 li {
@@ -74,9 +74,28 @@ li a:hover {
 }
 
 .marginscenter{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
+#aboutus {
+   color: #9F7AFF;
+   margin-right: 50px;
+   padding: 50px;
+   border-width: 2px ;
+   border-color: #6A1B9A;
+}
+
+
+#aboutus{
+  border-width: 2px ;
+  border-color: #6A1B9A;
+}
+
+
+
+
+
 #donation-box{
   width: 48%;
   float:left;
@@ -116,17 +135,16 @@ li a:hover {
   height: 308px;
 }
 
-.borders li :hover{
-  float:left;
-}
+
 
 .about-image{
-  width: 25%;
+  width: 300px;
   float: right;
-  height:190px;
+  height:220px;
 }
 #aboutus{
-  border: 2px solid black;
+  border-width: 2px ;
+  border-color: #6A1B9A;
 }
 
 .fa {
@@ -164,4 +182,19 @@ width:700px;
 height:500px;
 margin: 10px auto;
 border: 2px solid black
+}body {
+    background-color: #9FEDFF;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.borders{
+  border: 2px solid black;
+}
+
+
+#aboutus{
+  border: 2px solid black;
 }
