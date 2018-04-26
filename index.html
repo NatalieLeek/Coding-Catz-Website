@@ -2,8 +2,67 @@
  <html>     ​
   <head> 
    <link rel="stylesheet" href="Styles/site.css"/>
-     <h1>Fur Friends<h1>
+     <img src=”logo.jpg”>
+    <h3 class="centered"> Help meowt</h3>
+   <nav><ul class="borders" id="buttonsnavbar">
+     <li><a href="index.html">Home</a></li><li><a href="successstories.html">Donate</a></li>
+     <li> <a href="successstories.html"> Adoption </a> </li>
+
+     <li> <a href="successstories.html"> Contact Us </a></li>
+   </ul> </nav>
        <head/>
 <body>
- <nav><ul><li><a href="index.html">Home</a></li><li><a href="successstories.html">Donate</a></li></ul>
+
+
+ <div id="aboutus">
+   <img class="about-image" src="Images/hiding-cat.jpg"/>
+   <h2> About Us </h2>
+
+<p>   We are a small organization that is looking to help pets in need.
+  We were started in 2018 by 2 pet lovers that felt they needed to do something for all pets that needed a home.<br> We believe that every pet deserves a loving and warm home where they can be safe. With the help of more pet lovers like us, we hope we can help provide more pets with a safe and loving
+    home. We rely mostly on donations. We offer services of providing the options to adopt pets we have found, yet made safe
+
+<p> If you are interested in helping us out, either by donating or adopting a pet, look <a href="successstories.html"> here </a>
+</div>
+
+<div class="centered" id="find us">
+<h3> Where is your closest furr friend help centre?</h3>
+<form>Postcode:
+<input type="text" name="postcode">
+<input type="submit" value="Submit">
+</form>
+<div id="map">
+  <script>
+function myMap() {
+  var myLatLng = { lat:52.48, lng: -1.89 }
+var mapOptions = {
+    center: new google.maps.LatLng(52.48, -1.89),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6e_rThOu12o0bBRu9BaZGoYaV7--2nuQ&callback=myMap"></script>
+</div>
+
 <body/>
+
+
+<footer>
+<h3> Find us on social media to connect with us! </h3>
+  <!-- code for icons taken from ws3 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</footer>
