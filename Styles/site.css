@@ -23,7 +23,7 @@ float:left;
 }
 
 #donatedescription{
-  width:500px;
+  width:750px;
 }
 
 .marginscenter{
@@ -38,6 +38,28 @@ float:left;
 #donation-box div{
   height: 150px;
 }
+.cat-profile{
+  display: none;
+  float:left;
+  width: 700px;
+}
+.cat-profile.active{
+  display: block;
+}
+.cat-profile img{
+  width: 300px;
+  height: 300px;
+  float:left;
+}
+.cat-profile div
+{
+  float:left;
+}
+#contact-form{
+  width:800px
+
+}
+
 .borders{
   border: 2px solid black;
 }
